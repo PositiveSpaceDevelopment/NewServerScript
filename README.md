@@ -1,6 +1,22 @@
 # NewServerScript
 Script file and instructions for creating a new server
 
+Instructions:
+
+1. Save the bash file in the same directory as your .pem file.
+2. open up terminal, run <code>chmod +x newServerScript.sh</code>
+3. run <code>./newServerScript.sh</code>
+4. Follow the remaining directions below
+
+
+vim commands:
+    i -> insert (to get out of this, hit the esc button)
+    d -> delete
+    :wq -> write, then QUIT
+    :q! -> quit without saving
+    
+    
+==========    
 
 Replace contents of 000-default.conf with <code>/etc/apache2/sites-available/000-default.conf</code>
 
