@@ -4,7 +4,7 @@ Script file and instructions for creating a new server
 
 replace contents of 000-default.conf with <code>/etc/apache2/sites-available/000-default.conf</code>
 
-<code>
+<p>
 &ltVirtualHost *:80&gt
     DocumentRoot "/var/www/zero-to-slim.dev/public"
     ServerName zero-to-slim.dev
@@ -15,4 +15,4 @@ replace contents of 000-default.conf with <code>/etc/apache2/sites-available/000
         Allow from all
     &lt/Directory&gt
 &lt/VirtualHost&gt
-</code>
+</p>
