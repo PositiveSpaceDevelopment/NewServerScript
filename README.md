@@ -44,3 +44,6 @@ display_errors = On
 display_startup_errors = On
 html_errors = On
 ```
+
+
+Reference: [link](http://jeremykendall.net/2014/07/28/from-zero-to-slim-framework-getting-your-first-project-off-the-ground/)
