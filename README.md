@@ -4,15 +4,19 @@ Script file and instructions for creating a new server
 
 replace contents of 000-default.conf with <code>/etc/apache2/sites-available/000-default.conf</code>
 
-<xmp>
-<VirtualHost *:80>
+<html>
+<code>
+
+&ltVirtualHost *:80&gt
     DocumentRoot "/var/www/grupr1.dev/public"
     ServerName grupr1.dev
 
-    <Directory "/var/www/grupr1.dev/public">
+    &ltDirectory "/var/www/grupr1.dev/public"&gt
         AllowOverride All
         Order allow,deny
         Allow from all
-    </Directory>
-</VirtualHost>
-</xmp>
+    &lt/Directory&gt
+&lt/VirtualHost&gt
+
+</code>
+</html>
