@@ -1,5 +1,6 @@
 # NewServerScript
-This repo contains a script file and instructions for creating a new server
+This repo contains a script file and instructions for creating a new server.
+
 YOU CAN ONLY DO THESE THINGS AFTER YOUR SERVER HAS BEEN CREATED
 
 Instructions:
