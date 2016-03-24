@@ -12,9 +12,13 @@ Instructions:
 
 
 vim commands:
+
     i -> insert (to get out of this, hit the esc button)
+    
     d -> delete
+    
     :wq -> write, then QUIT
+    
     :q! -> quit without saving
     
     
